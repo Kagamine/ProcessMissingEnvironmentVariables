@@ -32,7 +32,7 @@ namespace WebApplication5
                 p.StartInfo.RedirectStandardError = true;
                 p.StartInfo.RedirectStandardOutput = true;
                 p.StartInfo.UseShellExecute = false;
-                p.StartInfo.WorkingDirectory = @"c:\pool\judge\41";
+                p.StartInfo.WorkingDirectory = @"c:\github\EntityFramework";
                 p.OutputDataReceived += (sender, e) => { Console.WriteLine(e.Data); };
                 p.ErrorDataReceived += (sender, e) => { Console.WriteLine(e.Data); };
                 p.Start();
